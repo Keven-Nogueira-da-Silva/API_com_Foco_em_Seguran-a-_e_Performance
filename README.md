@@ -24,6 +24,8 @@ Este projeto é uma API REST robusta para um **Gateway de Pagamentos**, desenvol
 
 ## 🏗 Arquitetura do Projeto
 
+<img width="2468" height="1240" alt="image" src="https://github.com/user-attachments/assets/1962276b-8053-4748-8931-0c4a20502429" />
+
 O projeto segue a arquitetura em camadas para facilitar a manutenção e escalabilidade:
 
 1.  **Controller:** Exposição dos endpoints REST.
@@ -32,7 +34,7 @@ O projeto segue a arquitetura em camadas para facilitar a manutenção e escalab
 4.  **Repository:** Interface de comunicação com o banco de dados via queries customizadas.
 5.  **Security/Infra:** Configurações de filtros JWT e tratadores de exceções globais.
 
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/8e477227-2f37-4778-8766-d8bf65c52871" />
+
 
 ## 📌 Principais Endpoints
 
@@ -53,9 +55,6 @@ O sistema utiliza **Bean Validation** para garantir que:
 * O `valor` seja sempre positivo (mínimo de 0.01).
 * O `status` e `valor` sejam campos obrigatórios no envio.
 * Erros de validação retornem um JSON amigável com o campo e a mensagem de erro específica.
-
-* 
-<img width="2468" height="1240" alt="image" src="https://github.com/user-attachments/assets/1962276b-8053-4748-8931-0c4a20502429" />
 
 ---
 Desenvolvido por mim como parte dos estudos em desenvolvimento Backend com Java e Spring Boot.
